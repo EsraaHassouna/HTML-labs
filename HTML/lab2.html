@@ -3,44 +3,67 @@
         body {
             background-image: url("../images/WhatsApp\ Image\ 2022-12-29\ at\ 13.26.46.jpeg");
         }
-        .backgraund>span{
-            opacity: 0.8
-            background-color: black;
-            padding-top:300px; 
-            
+        .background{
+            width: 218px;
+            height: 360px;
+            background-color:black;
+            opacity: 0.8;
+            padding-left: 20px;
+            padding-right: 100px;
+            padding-top: 50px;
+            padding-bottom: 53px; 
+            margin: 120px 50px 10px 440px;         
         }
-
-        form{
+        .form{
             border-style: solid;
             border-color: white;
-  
-        
+            padding-left: 30px;
+            padding-right: 264px;
+            padding-top: 44px;
+            padding-bottom: 89px;
         }
-        form>label{
+        .form>label{
             color: white;
         }
-        
-        form>span::first-letter{
+        .form>span::first-letter{
             color: white;
             size: 100px;
+            
         }
-        form>span{
+        .form>span{
             color: white;
             size: 50px;
         }
+        button{
+            border-radius: 20px;
+            width: 200px;
+            height: 30px;
+            color: black;
+            font-size: 100%;
+            background-color: red;
+            border: 1px solid red;
+            cursor: pointer;
+            padding-left: 86px;
+            padding-right: 128px;
+            /*padding-top: 44px;
+            padding-bottom: 89px;
+        */}
 
     </style>
     <body>
-        <div class="background" >
-            <span>esraa</span>
-            
-            <form>
+        <div class="background">
+            <div class="form">
                 <span>Login Here</span><br><br>
                 <label for="username"> User Name </label> <br>
                 <input type="email"><br>
                 <label for="Password">Password</label><br>
-                <input type="password"><br>
-            </form>
+                <input type="password"><br><br>
+            
+                <button class="button" type="submit"><a href="#">Login</a></button>
+                <br><br>
+                <span class="psw"><a href="#">Forgot password?</a></span>
+            </div>
+            
         </div>
     </body>
 
