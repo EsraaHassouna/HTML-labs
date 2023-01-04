@@ -13,6 +13,7 @@
             padding-top: 50px;
             padding-bottom: 53px; 
             margin: 120px 50px 10px 440px;         
+            position: absolute;
         }
         .form{
             border-style: solid;
@@ -45,12 +46,23 @@
             cursor: pointer;
             padding-left: 86px;
             padding-right: 128px;
-            /*padding-top: 44px;
-            padding-bottom: 89px;
-        */}
+          }
+        img{
+            border-radius: 30px;
+           
+            position: relative;
+            z-index:1 ;
+            width: 60px;
+            height: 60px;
+           /* padding-left: 30px;
+            padding-right: 264px;
+        */    margin: 0px 0px -200px 547px;
+        }
+        
 
     </style>
     <body>
+        <img src="../images/wp6553742.webp";> 
         <div class="background">
             <div class="form">
                 <span>Login Here</span><br><br>
@@ -58,7 +70,6 @@
                 <input type="email"><br>
                 <label for="Password">Password</label><br>
                 <input type="password"><br><br>
-            
                 <button class="button" type="submit"><a href="#">Login</a></button>
                 <br><br>
                 <span class="psw"><a href="#">Forgot password?</a></span>
